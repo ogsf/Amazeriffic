@@ -6,7 +6,12 @@ header, main, footer  {
 	min-width: 855px;
 }
 
-header  {
+header .container, main .container, footer .container  {
+	max-width: 855px;
+    margin: auto;  /* Extends margin to edge of browser, keeping background color settings */
+}
+
+header {
 	background: white;
 }
 
