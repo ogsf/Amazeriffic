@@ -41,5 +41,17 @@ main .main_content  {
 	width: 285px;
 }
 
+footer  {
+	overflow: auto;
+}
 
+footer .sitemap  {
+	float: right;
+	width: 570px;
+}
+
+footer .contact  {
+	float: left;
+	width: 285px;
+}
 
