@@ -33,12 +33,12 @@ main  {
 
 main img {
 	float: right;
-	width: 570px;
+	width: 285px;
 }
 
 main .main_content  {
 	float: left;
-	width: 285px;
+	width: 570px;
 }
 
 footer  {
@@ -47,11 +47,16 @@ footer  {
 
 footer .sitemap  {
 	float: right;
-	width: 570px;
+	width: 285px;
+}
+
+footer li  {
+	float: left;  /* float li items in left of right-hand column */
+	width: 50%;   /* split into two columns each 50% of available width */
 }
 
 footer .contact  {
 	float: left;
-	width: 285px;
+	width: 570px;
 }
 
