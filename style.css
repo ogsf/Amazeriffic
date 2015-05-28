@@ -1,5 +1,21 @@
 body  {
 	background: #f9e933;
+	font-size: 100%;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h2  {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: x-large;
+}
+
+h3  {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: larger;
+}
+
+h4  {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header, main, footer  {
@@ -19,11 +35,16 @@ header {
 header h1  {
 	float: left;
 	width: 570px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: xx-large;
 }
 
 header nav  {
 	float: right;
 	width: 285px;
+	margin-top: 10px;
 }
 
 main  {
@@ -52,13 +73,11 @@ footer .sitemap  {
 
 footer .sitemap_left  {
 	float: left;
-	display: inline;
-	width: 50%;
+    width: 50%;
 }
 
 footer .sitemap_right {
 	float: right;
-	display: inline;
 	width: 50%;
 }
 
