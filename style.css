@@ -50,9 +50,16 @@ footer .sitemap  {
 	width: 285px;
 }
 
-footer li  {
-	float: left;  /* float li items in left of right-hand column */
-	width: 50%;   /* split into two columns each 50% of available width */
+footer .sitemap_left  {
+	float: left;
+	display: inline;
+	width: 50%;
+}
+
+footer .sitemap_right {
+	float: right;
+	display: inline;
+	width: 50%;
 }
 
 footer .contact  {
